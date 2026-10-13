@@ -1,0 +1,285 @@
+{
+  "models": [
+    {
+      "model": "Random Forest (overfit)",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9571929824561403,
+      "test_acc_std": 0.012235505806429962,
+      "lira_auc": 0.7180232270817889,
+      "lira_auc_std": 0.016331458906687545,
+      "lira_acc": 0.6527240773286467,
+      "lira_acc_std": 0.016657990314337828,
+      "lira_tpr5": 0.16901408450704225,
+      "lira_tpr5_std": 0.06302718545144916,
+      "lira_tpr1": 0.06408450704225352,
+      "lira_tpr1_std": 0.011000351656206556,
+      "shokri_auc": 0.6030800593031875,
+      "shokri_auc_std": 0.011108437527067066,
+      "shokri_acc": 0.5750439367311071,
+      "shokri_acc_std": 0.019488107241657806,
+      "shokri_tpr5": 0.011267605633802818,
+      "shokri_tpr5_std": 0.009808724138862055,
+      "shokri_tpr1": 0.008450704225352112,
+      "shokri_tpr1_std": 0.010586828435473879,
+      "gap": 0.04280701754385974
+    },
+    {
+      "model": "Neural Net (overfit)",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9656140350877193,
+      "test_acc_std": 0.00680376120339136,
+      "lira_auc": 0.5819965406473931,
+      "lira_auc_std": 0.022193234771671826,
+      "lira_acc": 0.5560632688927944,
+      "lira_acc_std": 0.024138185888772444,
+      "lira_tpr5": 0.0852112676056338,
+      "lira_tpr5_std": 0.03144663881938888,
+      "lira_tpr1": 0.02253521126760564,
+      "lira_tpr1_std": 0.007904909972057624,
+      "shokri_auc": 0.5588868297504324,
+      "shokri_auc_std": 0.009331130667509544,
+      "shokri_acc": 0.5300527240773286,
+      "shokri_acc_std": 0.010040672658759695,
+      "shokri_tpr5": 0.0704225352112676,
+      "shokri_tpr5_std": 0.020771663667257217,
+      "shokri_tpr1": 0.01267605633802817,
+      "shokri_tpr1_std": 0.007904909972057622,
+      "gap": 0.03438596491228074
+    },
+    {
+      "model": "RF + regularisation",
+      "train_acc": 0.9577464788732394,
+      "train_acc_std": 0.007714402218382661,
+      "test_acc": 0.9403508771929825,
+      "test_acc_std": 0.010642632202177605,
+      "lira_auc": 0.5834148752162095,
+      "lira_auc_std": 0.023501651955045354,
+      "lira_acc": 0.5518453427065027,
+      "lira_acc_std": 0.01966481649307471,
+      "lira_tpr5": 0.1232394366197183,
+      "lira_tpr5_std": 0.013727879358885864,
+      "lira_tpr1": 0.036619718309859155,
+      "lira_tpr1_std": 0.013099348758970614,
+      "shokri_auc": 0.511528292562392,
+      "shokri_auc_std": 0.027076042246205818,
+      "shokri_acc": 0.4959578207381371,
+      "shokri_acc_std": 0.03046865790196041,
+      "shokri_tpr5": 0.04014084507042254,
+      "shokri_tpr5_std": 0.0141897476616971,
+      "shokri_tpr1": 0.006338028169014085,
+      "shokri_tpr1_std": 0.007841921637788763,
+      "gap": 0.01739560168025689
+    },
+    {
+      "model": "NN + L2 + early stop",
+      "train_acc": 0.9352112676056338,
+      "train_acc_std": 0.021313726690734558,
+      "test_acc": 0.9305263157894738,
+      "test_acc_std": 0.033019762402859226,
+      "lira_auc": 0.518566839634297,
+      "lira_auc_std": 0.019520270364125538,
+      "lira_acc": 0.5107205623901582,
+      "lira_acc_std": 0.01673199330110636,
+      "lira_tpr5": 0.07183098591549295,
+      "lira_tpr5_std": 0.015996924917747245,
+      "lira_tpr1": 0.019718309859154924,
+      "lira_tpr1_std": 0.013287297369093808,
+      "shokri_auc": 0.5204336545589326,
+      "shokri_auc_std": 0.020793917666308268,
+      "shokri_acc": 0.517750439367311,
+      "shokri_acc_std": 0.012847568985938161,
+      "shokri_tpr5": 0.06126760563380281,
+      "shokri_tpr5_std": 0.00850918730534829,
+      "shokri_tpr1": 0.009859154929577466,
+      "shokri_tpr1_std": 0.006057975540170865,
+      "gap": 0.004684951816160021
+    },
+    {
+      "model": "RF + rounded output",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9571929824561403,
+      "test_acc_std": 0.011184124526673176,
+      "lira_auc": 0.6808129478626144,
+      "lira_auc_std": 0.020133624514000987,
+      "lira_acc": 0.6186291739894552,
+      "lira_acc_std": 0.024928820002104952,
+      "lira_tpr5": 0.126056338028169,
+      "lira_tpr5_std": 0.01397847411357691,
+      "lira_tpr1": 0.06549295774647887,
+      "lira_tpr1_std": 0.0127151197783576,
+      "shokri_auc": 0.5797306646898936,
+      "shokri_auc_std": 0.012680585272325356,
+      "shokri_acc": 0.567311072056239,
+      "shokri_acc_std": 0.010391385236621782,
+      "shokri_tpr5": 0.0,
+      "shokri_tpr5_std": 0.0,
+      "shokri_tpr1": 0.0,
+      "shokri_tpr1_std": 0.0,
+      "gap": 0.04280701754385974
+    },
+    {
+      "model": "RF + label-only output",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9571929824561403,
+      "test_acc_std": 0.012235505806429962,
+      "lira_auc": 0.5481195947615517,
+      "lira_auc_std": 0.016096710459983274,
+      "lira_acc": 0.5268892794376099,
+      "lira_acc_std": 0.019645959384860648,
+      "lira_tpr5": 0.0936619718309859,
+      "lira_tpr5_std": 0.013655436218074166,
+      "lira_tpr1": 0.04507042253521126,
+      "lira_tpr1_std": 0.00718171762477857,
+      "shokri_auc": 0.528083765752409,
+      "shokri_auc_std": 0.019136530658412133,
+      "shokri_acc": 0.5205623901581722,
+      "shokri_acc_std": 0.006128504665786518,
+      "shokri_tpr5": 0.0,
+      "shokri_tpr5_std": 0.0,
+      "shokri_tpr1": 0.0,
+      "shokri_tpr1_std": 0.0,
+      "gap": 0.04280701754385974
+    },
+    {
+      "model": "DP Logistic Reg (eps=1)",
+      "train_acc": 0.6584507042253521,
+      "train_acc_std": 0.20037655485947875,
+      "test_acc": 0.6680701754385965,
+      "test_acc_std": 0.20220514101282389,
+      "lira_auc": 0.506234247590808,
+      "lira_auc_std": 0.03426867987636176,
+      "lira_acc": 0.5022847100175747,
+      "lira_acc_std": 0.020050559855116556,
+      "lira_tpr5": 0.06971830985915492,
+      "lira_tpr5_std": 0.018417882860031015,
+      "lira_tpr1": 0.013380281690140845,
+      "lira_tpr1_std": 0.004671302521627324,
+      "shokri_auc": 0.5014628119594762,
+      "shokri_auc_std": 0.01856896058470903,
+      "shokri_acc": 0.5026362038664323,
+      "shokri_acc_std": 0.0175395078381366,
+      "shokri_tpr5": 0.05070422535211268,
+      "shokri_tpr5_std": 0.020723857703608677,
+      "shokri_tpr1": 0.011971830985915493,
+      "shokri_tpr1_std": 0.007904909972057622,
+      "gap": -0.009619471213244357
+    }
+  ],
+  "dp_sweep": [
+    {
+      "epsilon": 0.05,
+      "test_acc": 0.4694736842105264,
+      "lira_auc": 0.518818878181369,
+      "shokri_auc": 0.5102322708178897
+    },
+    {
+      "epsilon": 0.1,
+      "test_acc": 0.48,
+      "lira_auc": 0.5195527551272547,
+      "shokri_auc": 0.4970916728440821
+    },
+    {
+      "epsilon": 0.5,
+      "test_acc": 0.5508771929824561,
+      "lira_auc": 0.5102100321225599,
+      "shokri_auc": 0.4863306152705708
+    },
+    {
+      "epsilon": 1,
+      "test_acc": 0.6680701754385965,
+      "lira_auc": 0.506234247590808,
+      "shokri_auc": 0.5014628119594762
+    },
+    {
+      "epsilon": 5,
+      "test_acc": 0.9578947368421054,
+      "lira_auc": 0.5046207066963183,
+      "shokri_auc": 0.5008376575240918
+    },
+    {
+      "epsilon": 10,
+      "test_acc": 0.9670175438596491,
+      "lira_auc": 0.5079243884358784,
+      "shokri_auc": 0.5170793180133432
+    },
+    {
+      "epsilon": "inf",
+      "test_acc": 0.9649122807017545,
+      "lira_auc": 0.5414282184334075,
+      "shokri_auc": 0.5137496911292315
+    }
+  ],
+  "risk": {
+    "n_members": 284,
+    "share_risk_over_0.9": 0.23591549295774647,
+    "share_risk_over_0.5": 0.6936619718309859,
+    "top10_records": [
+      {
+        "index": 528,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 5.435625099518067
+      },
+      {
+        "index": 518,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 3.1492623246210165
+      },
+      {
+        "index": 176,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 9.161820787032056
+      },
+      {
+        "index": 193,
+        "risk": 0.9999999998808473,
+        "label": "malignant",
+        "outlier_distance": 4.966518269536189
+      },
+      {
+        "index": 275,
+        "risk": 0.9999999998477977,
+        "label": "benign",
+        "outlier_distance": 5.319802730277294
+      },
+      {
+        "index": 385,
+        "risk": 0.9999999877425264,
+        "label": "malignant",
+        "outlier_distance": 2.868697172708019
+      },
+      {
+        "index": 484,
+        "risk": 0.9999995551564458,
+        "label": "benign",
+        "outlier_distance": 4.01298038342339
+      },
+      {
+        "index": 414,
+        "risk": 0.9999993609176726,
+        "label": "malignant",
+        "outlier_distance": 4.7008730424170215
+      },
+      {
+        "index": 186,
+        "risk": 0.9999971904657929,
+        "label": "malignant",
+        "outlier_distance": 4.443798555495459
+      },
+      {
+        "index": 290,
+        "risk": 0.9999963937055303,
+        "label": "benign",
+        "outlier_distance": 10.160040656461128
+      }
+    ],
+    "corr_risk_vs_outlierness": -0.04722293576834877,
+    "mean_dist_all": 4.936453379105986
+  }
+}

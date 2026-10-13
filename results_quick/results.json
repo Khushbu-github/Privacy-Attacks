@@ -1,0 +1,285 @@
+{
+  "models": [
+    {
+      "model": "Random Forest (overfit)",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9330985915492958,
+      "test_acc_std": 0.0035211267605633756,
+      "shadow_acc": 0.5862676056338029,
+      "shadow_acc_std": 0.040492957746478875,
+      "shadow_auc": 0.6143374330489981,
+      "shadow_auc_std": 0.03927792104741118,
+      "threshold_acc": 0.5985915492957746,
+      "threshold_acc_std": 0.017605633802816878,
+      "threshold_auc": 0.6418121404483238,
+      "threshold_auc_std": 0.012497520333267231,
+      "advantage": 0.19366197183098594,
+      "advantage_std": 0.05985915492957744,
+      "lira_auc": 0.6683808994316778,
+      "lira_auc_std": 0.010720904373610063,
+      "lira_acc": 0.633567662565905,
+      "lira_acc_std": 0.004393673110720531,
+      "lira_tpr5": 0.11443661971830985,
+      "lira_tpr5_std": 0.01584507042253521,
+      "gap": 0.06690140845070425
+    },
+    {
+      "model": "Neural Net (overfit)",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9577464788732395,
+      "test_acc_std": 0.007042253521126807,
+      "shadow_acc": 0.5334507042253521,
+      "shadow_acc_std": 0.026408450704225372,
+      "shadow_auc": 0.5688603451696093,
+      "shadow_auc_std": 0.04257587780202332,
+      "threshold_acc": 0.5475352112676057,
+      "threshold_acc_std": 0.0017605633802816878,
+      "threshold_auc": 0.52457349732196,
+      "threshold_auc_std": 0.0023804800634794065,
+      "advantage": 0.14788732394366194,
+      "advantage_std": 0.049295774647887314,
+      "lira_auc": 0.588744749196936,
+      "lira_auc_std": 0.000543612552508066,
+      "lira_acc": 0.5615114235500879,
+      "lira_acc_std": 0.004393673110720586,
+      "lira_tpr5": 0.07394366197183098,
+      "lira_tpr5_std": 0.01056338028169014,
+      "gap": 0.04225352112676051
+    },
+    {
+      "model": "RF + regularisation",
+      "train_acc": 0.9366197183098591,
+      "train_acc_std": 0.007042253521126751,
+      "test_acc": 0.9119718309859155,
+      "test_acc_std": 0.010563380281690127,
+      "shadow_acc": 0.47007042253521125,
+      "shadow_acc_std": 0.005281690140845063,
+      "shadow_auc": 0.4503818686768499,
+      "shadow_auc_std": 0.04024499107319973,
+      "threshold_acc": 0.5140845070422535,
+      "threshold_acc_std": 0.0,
+      "threshold_auc": 0.5478823646101965,
+      "threshold_auc_std": 0.002851616742709784,
+      "advantage": 0.04225352112676057,
+      "advantage_std": 0.035211267605633804,
+      "lira_auc": 0.5539659006671609,
+      "lira_auc_std": 0.005744996293550797,
+      "lira_acc": 0.5369068541300527,
+      "lira_acc_std": 0.0061511423550087985,
+      "lira_tpr5": 0.09683098591549297,
+      "lira_tpr5_std": 0.01584507042253521,
+      "gap": 0.02464788732394363
+    },
+    {
+      "model": "NN + L2 + early stop",
+      "train_acc": 0.9225352112676056,
+      "train_acc_std": 0.007042253521126751,
+      "test_acc": 0.9119718309859155,
+      "test_acc_std": 0.03873239436619719,
+      "shadow_acc": 0.5105633802816901,
+      "shadow_acc_std": 0.010563380281690127,
+      "shadow_auc": 0.5138117437016465,
+      "shadow_auc_std": 0.014010117040269804,
+      "threshold_acc": 0.4964788732394366,
+      "threshold_acc_std": 0.010563380281690127,
+      "threshold_auc": 0.512795080341202,
+      "threshold_auc_std": 0.027474707399325504,
+      "advantage": 0.073943661971831,
+      "advantage_std": 0.0035211267605633756,
+      "lira_auc": 0.49477390659747955,
+      "lira_auc_std": 0.019607116382505563,
+      "lira_acc": 0.49472759226713536,
+      "lira_acc_std": 0.00966608084358525,
+      "lira_tpr5": 0.05457746478873239,
+      "lira_tpr5_std": 0.0017605633802816913,
+      "gap": 0.010563380281690127
+    },
+    {
+      "model": "RF + rounded output",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9330985915492958,
+      "test_acc_std": 0.010563380281690127,
+      "shadow_acc": 0.5845070422535211,
+      "shadow_acc_std": 0.02464788732394363,
+      "shadow_auc": 0.6068860345169609,
+      "shadow_auc_std": 0.016998115453283114,
+      "threshold_acc": 0.5845070422535211,
+      "threshold_acc_std": 0.0035211267605633756,
+      "threshold_auc": 0.5967689942471732,
+      "threshold_auc_std": 3.7195000991918636e-05,
+      "advantage": 0.19014084507042256,
+      "advantage_std": 0.02816901408450706,
+      "lira_auc": 0.6870922905856189,
+      "lira_auc_std": 0.016237336298492666,
+      "lira_acc": 0.6256590509666081,
+      "lira_acc_std": 0.0017574692442882123,
+      "lira_tpr5": 0.13732394366197184,
+      "lira_tpr5_std": 0.045774647887323945,
+      "gap": 0.06690140845070425
+    },
+    {
+      "model": "RF + label-only output",
+      "train_acc": 1.0,
+      "train_acc_std": 0.0,
+      "test_acc": 0.9330985915492958,
+      "test_acc_std": 0.0035211267605633756,
+      "shadow_acc": 0.533450704225352,
+      "shadow_acc_std": 0.0017605633802816878,
+      "shadow_auc": 0.5334507042253521,
+      "shadow_auc_std": 0.0017605633802816323,
+      "threshold_acc": 0.533450704225352,
+      "threshold_acc_std": 0.0017605633802816878,
+      "threshold_auc": 0.5334507042253521,
+      "threshold_auc_std": 0.0017605633802816323,
+      "advantage": 0.06690140845070425,
+      "advantage_std": 0.0035211267605633756,
+      "lira_auc": 0.5464788732394367,
+      "lira_auc_std": 0.0074499629355078145,
+      "lira_acc": 0.5272407732864675,
+      "lira_acc_std": 0.01054481546572933,
+      "lira_tpr5": 0.08450704225352113,
+      "lira_tpr5_std": 0.007042253521126765,
+      "gap": 0.06690140845070425
+    },
+    {
+      "model": "DP Logistic Reg (eps=1)",
+      "train_acc": 0.7077464788732395,
+      "train_acc_std": 0.03873239436619719,
+      "test_acc": 0.7394366197183099,
+      "test_acc_std": 0.05633802816901412,
+      "shadow_acc": 0.5,
+      "shadow_acc_std": 0.0,
+      "shadow_auc": 0.5234700456258679,
+      "shadow_auc_std": 0.0035831184288831475,
+      "threshold_acc": 0.4823943661971831,
+      "threshold_acc_std": 0.017605633802816906,
+      "threshold_auc": 0.48462606625669513,
+      "threshold_auc_std": 0.030995834159888935,
+      "advantage": 0.09859154929577468,
+      "advantage_std": 0.007042253521126807,
+      "lira_auc": 0.5093649617000247,
+      "lira_auc_std": 0.0015072893501358875,
+      "lira_acc": 0.4947275922671353,
+      "lira_acc_std": 0.0008787346221441061,
+      "lira_tpr5": 0.051056338028169015,
+      "lira_tpr5_std": 0.012323943661971832,
+      "gap": -0.03169014084507038
+    }
+  ],
+  "dp_sweep": [
+    {
+      "epsilon": 0.05,
+      "test_acc": 0.5880281690140845,
+      "shadow_auc": 0.5019465383852411,
+      "lira_auc": 0.5244810971089696
+    },
+    {
+      "epsilon": 0.1,
+      "test_acc": 0.5950704225352113,
+      "shadow_auc": 0.49929329498115455,
+      "lira_auc": 0.519999382258463
+    },
+    {
+      "epsilon": 0.5,
+      "test_acc": 0.6408450704225352,
+      "shadow_auc": 0.5350376909343384,
+      "lira_auc": 0.5156659253768224
+    },
+    {
+      "epsilon": 1,
+      "test_acc": 0.7394366197183099,
+      "shadow_auc": 0.5234700456258679,
+      "lira_auc": 0.5093649617000247
+    },
+    {
+      "epsilon": 5,
+      "test_acc": 0.926056338028169,
+      "shadow_auc": 0.49186669311644515,
+      "lira_auc": 0.502897207808253
+    },
+    {
+      "epsilon": 10,
+      "test_acc": 0.9577464788732395,
+      "shadow_auc": 0.5203580638762151,
+      "lira_auc": 0.49684951816160117
+    },
+    {
+      "epsilon": "inf",
+      "test_acc": 0.9788732394366197,
+      "shadow_auc": 0.5045501884546717,
+      "lira_auc": 0.5199221645663454
+    }
+  ],
+  "risk": {
+    "n_members": 284,
+    "share_risk_over_0.9": 0.27816901408450706,
+    "share_risk_over_0.5": 0.6161971830985915,
+    "top10_records": [
+      {
+        "index": 1,
+        "risk": 1.0,
+        "label": "malignant",
+        "outlier_distance": 5.131941306592445
+      },
+      {
+        "index": 566,
+        "risk": 1.0,
+        "label": "malignant",
+        "outlier_distance": 3.868639375859992
+      },
+      {
+        "index": 80,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 3.849385977041371
+      },
+      {
+        "index": 528,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 5.435625099518067
+      },
+      {
+        "index": 128,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 3.610800561141476
+      },
+      {
+        "index": 327,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 5.170426060227792
+      },
+      {
+        "index": 275,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 5.319802730277294
+      },
+      {
+        "index": 176,
+        "risk": 1.0,
+        "label": "benign",
+        "outlier_distance": 9.161820787032056
+      },
+      {
+        "index": 421,
+        "risk": 0.9999999999999978,
+        "label": "benign",
+        "outlier_distance": 4.132382879848728
+      },
+      {
+        "index": 355,
+        "risk": 0.9999999999997411,
+        "label": "benign",
+        "outlier_distance": 3.4621998356683754
+      }
+    ],
+    "corr_risk_vs_outlierness": 0.026683154601596166,
+    "mean_dist_all": 4.936453379105986
+  }
+}
